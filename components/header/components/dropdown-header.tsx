@@ -5,6 +5,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ChevronDown } from "lucide-react";
+import Link from "next/link";
 
 export function DropdownHeader() {
   return (
@@ -14,19 +15,19 @@ export function DropdownHeader() {
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         <DropdownMenuItem>
-          <a href="/about" className="hover: cursor-pointer">
+          <Link href="/" className="hover: cursor-pointer">
             about me
-          </a>
+          </Link>
         </DropdownMenuItem>
         <DropdownMenuItem>
-          <a href="/contact" className="hover: cursor-pointer">
+          <Link href="/contact" className="hover: cursor-pointer">
             contact
-          </a>
+          </Link>
         </DropdownMenuItem>
         <DropdownMenuItem>
-          <a href="/my-posts" className="hover: cursor-pointer">
+          <Link href="/my-posts" className="hover: cursor-pointer">
             my posts
-          </a>
+          </Link>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

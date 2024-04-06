@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col items-start  py-16 px-48">
+      <main className="flex flex-col items-start sm:py-16 py-6 sm:px-48 px-10">
         <div className="text-lg">André Luis de Oliveira Andrade</div>
-        <div className="w-96 py-10">
+        <div className="sm:w-full md:w-96 px-0">
           Hello! ✋ <br />
           <br />
           My name is André and I'm a software engineer based in Curitiba,
