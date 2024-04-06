@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Orbitron } from "next/font/google";
+import { Special_Elite } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components/header/header";
 
-const orbitron = Orbitron({ subsets: ["latin"] });
+const specialElite = Special_Elite({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "André Luis de Oliveira",
@@ -16,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={orbitron.className}>{children}</body>
+      <body className={specialElite.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
