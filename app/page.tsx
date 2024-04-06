@@ -7,8 +7,9 @@ export default function Home() {
     <>
       <main className="flex flex-col items-start sm:py-16 py-6 sm:px-48 px-10">
         <div className="text-lg">André Luis de Oliveira Andrade</div>
+        <br />
         <div className="sm:w-full md:w-96 px-0">
-          Hello! ✋ <br />
+          Hello! 🧙‍♂️ <br />
           <br />
           My name is André and I'm a software engineer based in Curitiba,
           Brazil. <br />
