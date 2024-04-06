@@ -17,7 +17,7 @@ export default async function MyPosts() {
         <Link
           target="blank"
           href={`${post.url}`}
-          className="hover:cursor-pointer hover:underline pb-2"
+          className="hover:cursor-pointer underline pb-2"
           key={post.id}
         >
           {post.title}
