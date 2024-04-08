@@ -23,13 +23,22 @@ export default function Home() {
         </div>
 
         <div className="flex pt-10 gap-10 w-full">
-          <Link className="flex gap-2 cursor-pointer hover:underline" href={""}>
+          <Link
+            className="flex gap-2 cursor-pointer hover:underline"
+            href="https://github.com/anddreluis2"
+          >
             <Github />
           </Link>
-          <Link className="cursor-pointer flex gap-2 hover:underline" href={""}>
+          <Link
+            className="cursor-pointer flex gap-2 hover:underline"
+            href="https://twitter.com/anddreluis_"
+          >
             <Twitter />
           </Link>
-          <Link className="cursor-pointer flex gap-2 hover:underline" href={""}>
+          <Link
+            className="cursor-pointer flex gap-2 hover:underline"
+            href="https://www.linkedin.com/in/andreluisdeoliveiraandrade/"
+          >
             <Linkedin />
           </Link>
         </div>
