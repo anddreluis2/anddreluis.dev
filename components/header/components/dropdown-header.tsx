@@ -19,11 +19,11 @@ export function DropdownHeader() {
             about me
           </Link>
         </DropdownMenuItem>
-        <DropdownMenuItem>
+        {/* <DropdownMenuItem>
           <Link href="/contact" className="hover: cursor-pointer">
             contact
           </Link>
-        </DropdownMenuItem>
+        </DropdownMenuItem> */}
         <DropdownMenuItem>
           <Link href="/my-posts" className="hover: cursor-pointer">
             my posts
